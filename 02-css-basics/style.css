@@ -124,7 +124,7 @@ th, td
     text-align: left;
     vertical-align: top;
     border-width: 10px;
-    border-color: darkolivegreen; 
+    border-color: 5px, solid, darkolivegreen; 
 }
 
 footer
