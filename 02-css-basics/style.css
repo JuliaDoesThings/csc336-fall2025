@@ -98,8 +98,33 @@ book-cover
     margin-left: 25px;
     margin-right: 25px;
     border-radius: 6px;
-    max-width: 250px;
-    max-height: 350px;
+}
+
+.table-container
+{
+    width: 90%;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: rgb(212, 212, 184);
+}
+
+table 
+{
+    padding: 10px;
+    border-collapse: collapse;
+}
+tbody 
+{
+    border: 5px, solid, white;
+}
+th, td 
+{
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    border-width: 10px;
+    border-color: darkolivegreen; 
 }
 
 footer
