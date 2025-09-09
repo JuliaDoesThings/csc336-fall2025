@@ -79,7 +79,12 @@ blank-line
     border: 8px solid rgb(212, 212, 184);
     margin: 2px;
 }
+
+card-container
+{
+    font-size: 15px;
     
+}
 book-title
 {
     font-weight: bold;
