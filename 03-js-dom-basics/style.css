@@ -121,3 +121,19 @@ tr
     margin-left: 43%;
     margin-right: 44%;
 }
+
+.prev-button 
+{
+    background-color: goldenrod;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.next-button 
+{
+    background-color: goldenrod;
+    border-radius: 15px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
