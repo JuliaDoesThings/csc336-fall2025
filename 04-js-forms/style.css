@@ -1,0 +1,67 @@
+body 
+{
+    background-color: rgb(178, 237, 218);
+}
+
+#input-form 
+{
+    padding-top: 10px;
+    background-color: aquamarine;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+#form-label 
+{
+    font-size: 18px;
+    color: goldenrod;
+    text-shadow: 2px 1px rgb(255, 255, 255);
+}
+
+.tasks-list 
+{
+    padding-left: 5px;
+    border: 0.5px solid goldenrod;
+}
+
+.task 
+{
+    box-shadow: 2px 2px rgb(97, 148, 97);
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.task-label 
+{
+    font-size: 24px;
+    font-weight: 100;
+    padding-left: 8px;
+    padding-bottom: 2px;
+    margin: 2px;
+}
+
+.date-info 
+{
+    margin: 2px;
+    padding-left: 8px;
+}
+
+.discription 
+{
+    padding-left: 5px;
+    margin: 5px;
+}
+
+#to-do-lists
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    border: 5px solid lightgreen;
+}
