@@ -93,36 +93,3 @@ function addTask(e)
 
     fillTasks();
 }
-
-/*function addTask(name, date, priority, color) 
-{
-    newTask = document.createElement("div");
-    newTask.className = "task";
-    newTask.style.backgroundColor = color;
-
-    taskLabel = document.createElement("p");
-    taskLabel.className = "task-label";
-    taskLabel.innerHTML = name;
-    newTask.append(taskLabel);
-
-    newTask.append(createDate(date));
-
-    newTask.innerHTML = "";
-    
-    taskHolder.append(newTask);
-}
-
-function createDate(date) 
-{
-    
-
-    dateContainer = document.createElement("p");
-    dateContainer.className = "date-info";
-
-   
-
-    dateContainer.innerHTML = 
-    
-    return dateContainer;
-}
-*/
