@@ -1,0 +1,60 @@
+{   "regions":
+    [
+        {"name":"California", "climate":"costal", "towns":
+        [
+            {"name":"Los Angeles", "population":3770958, "notable_people":
+            [
+                {"name":"Karen Bass", "role":"Mayor", "items":[{"badge":"issued", "clearance":"High"}]},
+                {"name":"Hydee Feldstein Soto", "role":"City Attorney", "items":[{"badge":"issued", "clearance":"Medium"}]},
+                {"name":"Kenneth Mejia", "role":"City Controller", "items":[{"badge":"issued", "clearance":"Medium"}]}
+            ]},
+            {"name":"San Francisco", "population":767968, "notable_people":
+            [
+                {"name":"Daniel Lurie", "role":"Mayor", "items":[{"badge":"issued", "clearance":"High"}]},   
+                {"name":"Brooke Jenkins", "role":"District Attorney", "items":[{"badge":"issued", "clearance":"High"}]},
+                {"name":"Paul Miyamoto", "role":"Sheriff", "items":[[{"badge":"unissued", "clearance":"Medium"}]]}
+            ]},
+            {"name":"Sacramento", "population":525000, "notable_people":
+            [
+                {"name":"Kevin McCarty", "role":"Mayor", "items":[{"badge":"issued", "clearance":"High"}]},
+                {"name":"Karina Talamantes", "role":"City Council", "items":[[{"badge":"damaged", "clearance":"High"}]]},
+                {"name":"Caity Maple", "role":"City Council", "items":[[{"badge":"issued", "clearance":"High"}]]}
+            ]}
+        ]},
+        {"name":"Texas", "climate":"hot", "towns":
+        [
+            {"name":"Austin", "population":989252, "notable_people":
+            [
+                {"name":"Kirk Watson", "role":"Mayor", "items":[{"badge":"issued", "clearance":"High"}]},
+                {"name":"T.C. Broadnax", "role":"City Manager", "items":[[{"badge":"damaged", "clearance":"Medium"}]]}
+            ]},
+            {"name":"Houston", "population":2324082, "notable_people":
+            [
+                {"name":"John Whitmire", "role":"Mayor", "items":[{"badge":"issued", "clearance":"High"}]},
+                {"name":"Tiffany Thomas", "role":"City Council", "items":[{"badge":"issued", "clearance":"High"}]}
+            ]},
+            {"name":"Dallas", "population":1302638, "notable_people":
+            [
+                {"name":"Eric Johnson", "role":"Mayor", "items":[{"badge":"issued", "clearance":"High"}]},
+                {"name":"Edgardo 'Eddie' Garcia", "role":"Chief of Police", "items":[{"badge":"suspended", "clearance":"Medium"}]},
+                {"name":"Dominique Artis", "role":"Chief of Fire", "items":[{"badge":"issued", "clearance":"Medium"}]}
+            ]}
+        ]
+        },
+        {"name":"Florida", "climate":"humid", "towns":
+        [
+            {"name":"Miami", "population":464655, "notable_people":
+            [
+                {"name":"Francis Xavier Suarez", "role":"Mayor", "items":[{"badge":"unissued", "clearance":"High"}]}
+            ]},
+            {"name":"Jacksonville", "population":1008485, "notable_people":
+            [
+                {"name":"Donna Deegan", "role":"Mayor", "items":[{"badge":"issued", "clearance":"High"}]},
+                {"name":"Melissa Ross", "role":"Liason to the Press", "items":[{"badge":"issued", "clearance":"Low"}]}
+            ]}
+        ]
+        }
+    ]
+    
+    
+}
