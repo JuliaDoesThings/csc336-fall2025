@@ -13,8 +13,6 @@ for (let i = 0; i < fileContents.regions.length; i++)
     printRegion(fileContents.regions[i]);
 }
 
-
-
 function printRegion(regionData) 
 {
     //console.log(regionData)
