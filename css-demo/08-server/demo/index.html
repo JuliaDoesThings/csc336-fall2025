@@ -1,0 +1,50 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>
+            Hello World!
+        </h1>
+        <form id="dataform">
+            <label for="name">Name:</label>
+            <input id="nameInput" name="name" type="text">
+            <label for="animal">Name:</label>
+            <input id="animalInput" name="animal" type="text">
+            <label for="food">Name:</label>
+            <input id="animalInput" name="food" type="text">
+            <button type="submit">CLICK</button>
+        </form>
+        <script>
+            let dataFormEl = document.querySelector("#dataform");
+            dataFormEl.addEventListener("submit", async e=> 
+            {
+                e.preventDefault();
+
+                let formData = new FormData(dataFormEl)
+                let entries = formData.entires();
+                
+                //longhand way of doing it
+                //let data = {};
+                //for (let entry of entires) 
+                //{
+                //    data[entry[0]] = entry[1];
+                //}
+
+                //shorthand way of doing it
+                let data = Object.formEntrues(formData.entries());
+
+                console.log(nameInputEl.value);
+
+                let response = await fetch("/api/add", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify(data)
+                });
+
+                let responseText = await response.text();
+                console.log(responseText);
+            });
+        </script>
+    </body>
+</html>
