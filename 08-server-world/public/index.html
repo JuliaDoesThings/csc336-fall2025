@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <head>
+        <script src="script.js" defer></script>
+        <title>World Assignement Server</title>
+    </head>
+
+    <body>
+        <p>Change Security Clearances</p>
+        <form id="change-clearance">
+            <select name="select-person" id="select-person">
+                <optgroup label="Californians">
+                    <option value="Karen Bass">Karen Bass</option>
+                    <option value="Hydee Feldstein Soto">Hydee Feldstein Soto</option>
+                    <option value="Kenneth Mejia">Kenneth Mejia</option>
+                    <option value="Daniel Lurie">Daniel Lurie</option>
+                    <option value="Brooke Jenkins">Brooke Jenkins</option>
+                    <option value="Paul Miyamoto">Paul Miyamoto</option>
+                    <option value="Kevin McCarty">Kevin McCarty</option>
+                    <option value="Karina Talamantes">Karina Talamantes</option>
+                    <option value="Caity Maple">Caity Maple</option>
+                </optgroup>
+                <optgroup label="Texans">
+                    <option value="Kirk Watson">Kirk Watson</option>
+                    <option value="T.C. Broadnax">T.C. Broadnax</option>
+                    <option value="John Whitmire">John Whitmire</option>
+                    <option value="Tiffany Thomas">Tiffany Thomas</option>
+                    <option value="Eric Johnson">Eric Johnson</option>
+                    <option value="Edgardo 'Eddie' Garcia">Edgardo 'Eddie' Garcia</option>
+                    <option value="Dominique Artis">Dominique Artis</option>
+                </optgroup>
+                <optgroup label="Floridians">
+                    <option value="Francis Xavier Suarez">Francis Xavier Suarez</option>
+                    <option value="Donna Deegan">Donna Deegan</option>
+                    <option value="Melissa Ross">Melissa Ross</option>
+                </optgroup>
+            </select>
+            <label for="new-clearance">New Clearance: </label>
+            <select name="new-clearance" id="new-clearance">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <button type="submit" id="submit-button">Submit</button>
+        </form>
+        <br>
+         <div id="big-world-div"></div>
+    </body>
+</html>

@@ -1,15 +1,60 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Resturant Doesn't Exist</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
         <script src="script.js" defer></script>
     </head>
 
     <body>
-        <div class="top-bar">
-            <p class="title-text">This Resturant Does Not Exist</p>
-        </div>
+        <div id="back-block">
+            <div id="top-bar">
+                <p class="title-text">This Resturant Does Not Exist</p>
+            </div>
+            <table id="navigators">
+                <tr>
+                    <td class="spacer-row"> </td>
+                    <td id="menu-box" onclick="vanish('menu-box')" class="disappers"> Menu</td>
+                    <td class="spacer-row"> </td>
+                    <td id="location-box" onclick="vanish('location-box')" class="disappers">Location</td>
+                    <td class="spacer-row"> </td>
+                    <td id="order-box" onclick="vanish('order-box')" class="disappers">Order</td>
+                </tr>
+            </table>
+            <div id="main-body" onclick="vanish('main-body')" class="disappers">
+                <p>You've solved the first puzzle and found the website for the website that doesn't exist.
+                    <br> Despite that, the puzzle to obtain your meal has only just begun. 
+                    <br>                   <br> Countless people have attempted what you are doing, to eat the food from the resturant
+                    that doesn't exist. 
+                    <br>
+                    <br> but it doesn't exist.
+                </p>
+            </div>
 
+            <div id="info-box">
+                <table id="info-table">
+                    <tr id="info-header">
+                        <th id="info-th" onclick="vanish('info-th')" class="disappers">Facts About Nothing</th>
+                    </tr>
+                    <tr>
+                        <td id="hours-left" onclick="vanish('hours-left')" class="disappers">  Hours: </td>
+                        <td id="hours-text" onclick="vanish('hours-text')" class="disappers">Never open</td>
+                    </tr>
+                    <tr>
+                        <td id="location-left" onclick="vanish('location-left')" class="disappers">  Location: </td>
+                        <td id="location-text" onclick="vanish('location-text')" class="disappers">It's not that easy</td>
+                    </tr>
+                    <tr>
+                        <td id="status-left" onclick="vanish('status-left')" class="disappers">  Status: </td>
+                        <td id="status-text" onclick="vanish('status-text')" class="disappers">Still Doesn't Exist</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <br>
+            <button id="reset-button" onclick="reset()">Reset Website</button>
+        </div>
         
     </body>
 </html>

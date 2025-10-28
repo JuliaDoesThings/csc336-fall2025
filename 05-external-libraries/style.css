@@ -3,14 +3,83 @@ body
     background-color: rgb(254, 182, 174);
 }
 
-.top-bar 
+#top-bar 
 {
     background-color: coral;
     padding: 15px;
 
     text-align: center;
     font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     margin: 5%;
     margin-top: 0%;
+    margin-bottom: 3px;
+}
+
+#main-body, #info-box
+{
+    background-color: coral;
+    padding: 10px;
+    
+    margin: 5%;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+#navigators 
+{
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom:  5px;
+}
+
+.spacer-row 
+{
+    width: 15%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#menu-box, #location-box, #order-box 
+{
+    background-color: rgb(254, 182, 174);
+    border: 3px solid saddlebrown;
+
+    text-align: center;
+
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+#info-th 
+{
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#hours-left, #location-left, #status-left 
+{
+    border: 3px solid saddlebrown;
+    width: 20%;
+    
+    
+}
+
+#reset-button 
+{
+    background-color: rgb(254, 182, 174);
+    border: 3px solid saddlebrown;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 5%;
+}
+
+#back-block 
+{
+    background-color: rgb(195, 139, 102);
+    padding-top: 1px;
+    padding: 20px;
+    margin-left: 4%;
+    margin-right: 4%;;
 }
