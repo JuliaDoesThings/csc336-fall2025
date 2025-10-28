@@ -1,0 +1,28 @@
+body 
+{
+    background-color: rgb(187, 249, 229);
+}
+
+#joke-div
+{
+    text-align: center;
+    background-color: pink;
+    border-radius: 8px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 9px;
+}
+
+#buttons 
+{
+    margin-left: 40%;
+    margin-right: 36%;
+}
+
+.response-options
+{
+    background-color: rgb(171, 171, 196);
+    border: 2px solid blue;
+    border-radius: 3px;
+    box-shadow: 2px 2px rgb(72, 72, 212);
+}
