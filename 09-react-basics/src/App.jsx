@@ -1,10 +1,12 @@
 import {useState} from "react";
+import ListItem from "./ListItem";
 
-
-//useState(default value of the array)
-//returns an array that should be treated as read only and a method that can be used to modify it
-const [items, setItems] = useState
-(
+//this runs by default returns at the end of the day, will return an html object
+function App() 
+{
+  //useState(default value of the array)
+  //returns an array that should be treated as read only and a method that can be used to modify it
+  const [items, setItems] = useState(
   [
     {
       name: "Capstone Outline and Introduction",
@@ -30,23 +32,19 @@ const [items, setItems] = useState
       due: "Tuesday the 18th",
       important: true
     }
-  ]
-);
+  ]);
 
-const [meetings, setMeetings] = useState(
+  const [meetings, setMeetings] = useState(
   [
     {
       date: "Wednesday the 12th",
       time: "11 am",
       
     }    
-  ])
-const [inputValue, setInputValue] = useState("")
+  ]);
 
+  const [inputValue, setInputValue] = useState("")
 
-//this runs by default returns at the end of the day, will return an html object
-function App() 
-{
   let highPriority = []
   let lowPriority = []
   for (let i = 0; i < items.length; i++) 
@@ -61,13 +59,14 @@ function App()
   }
 
 
-  return 
-  (
+  return  (
     <div>
         {items.map((items, index) => (
           <ListItem 
-            key={index} 
-            text={items.text} 
+            index={index + 1}
+            name={items.name} 
+            class={items.class} 
+            due={items.due}
             important={items.important}>
           </ListItem>))}
 
@@ -77,7 +76,5 @@ function App()
     </div>
   )
 }
-
-
 
 export default App
