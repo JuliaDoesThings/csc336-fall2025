@@ -192,31 +192,6 @@ function App()
       </tr>
       </tbody>
     </table>
-
-      
-      //date, time, with, purpose, notes
-
-    //<input id="newItemText" type="text"></input>
-    //<label for="newItemText">New Item:</label>
-    //<button onclick="handleAdd()">Add to List</button>
-
-    /*        <label for="item-importance">Important: </label>
-      <input 
-              type="checkbox"
-              value="important"
-              id="item-importance"
-              onChange={(e) => 
-                {if (e.target.value == "important") 
-                  {
-                    setImportance(true)
-                  }
-                  else 
-                  {
-                    setImportance(false)
-                  }
-                }
-              }/>
-    */
   )
 }
 
