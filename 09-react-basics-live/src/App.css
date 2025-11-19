@@ -1,0 +1,17 @@
+td
+{
+    width: 30%;
+    
+}
+
+nav 
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+
+    background: linear-gradient(to left, rgb(167, 69, 167), rgb(96, 114, 255));
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

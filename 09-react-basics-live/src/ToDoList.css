@@ -1,0 +1,41 @@
+table 
+{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+td 
+{
+    width: 50%;
+}
+
+#add-meeting, #add-item
+{
+    align-items: center;
+    background: rgb(171, 214, 230);
+    width: 80%;
+    padding: 14px;
+    height: 160px;
+
+    border: 2px solid rgb(93, 25, 111);
+    border-radius: 12px;
+}
+
+label 
+{
+    margin-bottom: 8px;
+    width: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input 
+{
+    margin-bottom: 6px;
+    background: linear-gradient(to right, rgb(167, 69, 167), rgb(255, 120, 96));
+}
+
+button 
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: rgb(84, 212, 84);
+}
