@@ -1,0 +1,29 @@
+.profile-div 
+{
+    font-family: 'Courier New', Courier, monospace;
+
+    background: rgb(29, 209, 29);
+    border-radius: 2px;
+    margin-left: 6px;
+    margin-right: 6px;
+
+}
+
+.main-table
+{
+    width: 100%;
+    text-align: center;
+}
+
+.header-name
+{
+    font-size: 22px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.status
+{
+    font-size: 15px;
+    width: 100%;
+}

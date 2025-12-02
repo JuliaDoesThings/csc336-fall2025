@@ -1,0 +1,20 @@
+.top-bar
+{
+    background: linear-gradient(to right, tan, rgb(55, 128, 0));
+    width: 100%;
+    padding: 4px;
+    padding-bottom: 8px; 
+    padding-top: 8px;
+    
+}
+
+.nav-col 
+{
+    text-align: center;
+    width: 30%;
+
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+

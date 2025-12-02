@@ -2,3 +2,32 @@ External Program: PDF.js
     webpage source: https://www.nutrient.io/sdk/web/getting-started/nextjs/
     (script source: https://cdn.cloud.pspdfkit.com/pspdfkit-web@1.9.1/nutrient-viewer.js)
     !use in client-side code!
+
+
+Source JSON:
+    -Name
+    -Works
+    -Primary/secondary
+    -Nationality (birth)
+    -Location
+    -birthdate
+    -deathdate
+
+Quote JSON:
+    -Text
+    -Author
+    -Source
+    -Page
+    -Date
+
+Subject JSON:
+    -Name
+    -Lifetime
+    -Dynasty
+    -Origin
+    -Mother
+    -Father
+    -Children
+    -Notes []
+
+
