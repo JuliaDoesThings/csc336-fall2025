@@ -8,6 +8,14 @@ import './App.css';
 
 function App() {
 
+  const [fromServer, setFromServer] = useState("");
+
+  useEffect(() => {
+    fetch("http://localhost:300-/api/data")
+    .then(result => result.json())
+    .then(data => setFromServer(data))
+  })
+
   return (
     <>
       <div>
