@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route, NavLink} from "react-router-dom";
 
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import Home from './Home';
 import Sources from './Sources';
 import Papers from "./Papers";
@@ -11,7 +11,7 @@ function App() {
   const [fromServer, setFromServer] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:300-/api/data")
+    fetch("http://localhost:3000/api/data")
     .then(result => result.json())
     .then(data => setFromServer(data))
   })
