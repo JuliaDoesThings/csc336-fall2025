@@ -53,7 +53,11 @@ app.get("/api/data", async (req, res) =>
 {
     const subjectsString = await fs.readFileSync("subjects.json", "utf-8");
     const subjectsObject = json.parse(subjectsString);
-    res.json(subjectsObject);
+
+    const sourcesString = await fs.readFileSync("sources.json", "utf-8");
+    const sourcesObject = json.parse(sourcesString);
+
+    res.json([subjectsObject, sourcesObject]);
 })
 
 //app.get("/api/data", (req, res) => {

@@ -1,0 +1,22 @@
+.title-header 
+{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(114, 77, 29);
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+
+}
+
+.subject-container 
+{
+    display: flex;
+    border: solid 1px greenyellow;
+
+
+    width: 80%;
+    margin-left: 10%;
+}

@@ -1,41 +1,28 @@
 import Profile from "./Profile"
 import "./Sources.css"
-import {useState} from "react";
+import {useState, useEffect} from "react";
 
 //webpage landing for source hosting
 
 function Sources() 
 {
+    let data = "";
+    useEffect(() => {
+        fetch("http://localhost:3000/api/data")
+        .then(result => result.json())
+        .then(data => setFromServer(data))
+    })
+    
+    //api sends the data from both json files in an array formatted [subjects, sources], this selects the correct data
+    const sourcesData = data[1];
+
     return (
         <>
-        <table class="profile-sorter">
-            <tbody>
-                <tr>
-                    <td><Profile 
-                        name={"test profile"}
-                        works={["sample work", "sample work two"]}
-                        primary={true}
-                        nationality={"French"}
-                        location={"test location"}
-                        birth={"testbirthdate"}
-                        death={"date of death"}
-                        />
-                    </td>
-                    <td><Profile 
-                        name={"test profile2"}
-                        works={["sample work3", "sample work two"]}
-                        primary={false}
-                        nationality={"English"}
-                        location={"test location 2"}
-                        birth={"testbirthdate2"}
-                        death={"none"}
-                        />
-                    </td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-            
+            <div class="subject-container">
+                {sourcesData.map((source) => (
+                    <Profile source={source} key={source.id}/>
+                ))};
+            </div>
 
             
         </>

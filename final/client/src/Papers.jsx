@@ -1,28 +1,19 @@
 import { useState, useEffect} from "react";
+import "./Papers.css";
 
 //Website page that hosts drafts of the thesis
 
 function Papers() 
 {
-    const [drafts, setDrafts] = useState();
-    
-    useEffect(() => {
-        const pdfReader = document.createElement('script');
-        pdfReader.src = "../../public/pdf.js-master/src/pdf.js";
-        pdfReader.async = true;
-
-        document.appendChild(pdfReader);
-
-        const pdfWorker = document.createElement('script');
-        pdfWorker.src = "../../public/pdf.js-master/src/pdf.worker.js";
-        pdfWorker.async = true;
-
-        document.appendChild(pdfWorker);
-    })
 
     return (
         <>
-        
+        <div class="draft">
+            <p class="draft-title">Final Paper</p>
+            <iframe class="pdf" src="./Paper-final.pdf" width={"800"} height={"600"}/>
+        </div>
+            <p class="draft-title">Archived Draft</p>
+            <iframe class="pdf" src="./Paper-draft.pdf" width={"800"} height={"600"}/>
         </>
     )
 }

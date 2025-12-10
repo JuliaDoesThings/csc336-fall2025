@@ -1,0 +1,13 @@
+{"Sources": 
+    [
+        {
+            "name" : "William of Tyre",
+            "primary" : true,
+            "works" : ["A History of Deeds Done Beyond the Sea"],
+            "birth" : "Jerusalem",
+            "location" : "Holy Land",
+            "birthdate" : "12th Century",
+            "deathdate" : "September 29th, 1186"
+        }
+    ]
+}
